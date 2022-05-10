@@ -112,45 +112,44 @@
                 </div>
                 <ul class="timeline">
                     <li>
-                        <div class="timeline-image "><img class="rounded-circle img-fluid" src="assets/img/about/1.jpg" alt="..." /></div>
+                        <div class="timeline-image "><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
                                 <h4>Step 1</h4>
-                                <h4 class="subheading">Installation</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Copy the plugin installation link<br><a href="#" style="color: blue;">https://9e4e-141-179-22-48.ngrok.io/atlassian-connect.json</a></p></div>
                         </div>
                     </li>
                     <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/2.jpg" alt="..." /></div>
+                        <div class="timeline-image"><img class="rounded img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>March 2011</h4>
-                                <h4 class="subheading">An Agency is Born</h4>
+                                <h4>Step 2</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">Sign in to your Jira account and navigate to the "Manage Apps" setting found under "Apps" at the top of your dashboard</p></div>
                         </div>
                     </li>
                     <li>
                         <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/3.jpg" alt="..." /></div>
                         <div class="timeline-panel">
                             <div class="timeline-heading">
-                                <h4>December 2015</h4>
-                                <h4 class="subheading">Transition to Full Service</h4>
+                                <h4>Step 3</h4>
                             </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                            <div class="timeline-body"><p class="text-muted">- Click on "Upload App" and paste the URL into it.<br>
+                                - Click on "Upload App" and paste the URL into it and click "Upload"</p></div>
                         </div>
                     </li>
-                    <li class="timeline-inverted">
-                        <div class="timeline-image"><img class="rounded-circle img-fluid" src="assets/img/about/4.jpg" alt="..." /></div>
-                        <div class="timeline-panel">
-                            <div class="timeline-heading">
-                                <h4>July 2020</h4>
-                                <h4 class="subheading">Phase Two Expansion</h4>
-                            </div>
-                            <div class="timeline-body"><p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p></div>
+                    <!-- <li class="timeline-inverted" >
+                        <div class="timeline-image" style="background-color: rgb(58, 154, 225);">
+                            <h4>
+                                Plugin
+                                <br />
+                                is now
+                                <br />
+                                ready!
+                            </h4>
                         </div>
-                    </li>
+                    </li> -->
 
                 </ul>
             </div>
@@ -246,9 +245,9 @@
                             <div class="col-lg-8">
                                 <div class="modal-body">
                                     <!-- Project details-->
-                                    <h2 class="text-uppercase">OpenAI BERT Model</h2>
+                                    <h2 class="text-uppercase">Issue Labeler Model</h2>
                                     <img class="img-fluid d-block mx-auto w-25" src="assets/img/portfolio/1.jpg" alt="..." />
-                                    <p class="h5 text-muted" style="text-align: left;">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p class="h5 text-muted" style="text-align: left;">The issue labeler model is the prediction engine utilized by the plugin. The model is a result of fine-tuning Google Open-AI's BERT model, which is a deep learning model that excels at natural language processing, and training it for issue classification using the expansive SmartSHARK dataset. The model predicts an issue's type based on contextual analysis of its title and description.</p>
 
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
@@ -273,7 +272,7 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Jira Plugin</h2>\
                                     <img class="img-fluid d-block mx-auto w-25" src="assets/img/portfolio/2.jpg" alt="..." />
-                                    <p class="h5 text-muted" style="text-align: left;">Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                    <p class="h5 text-muted" style="text-align: left;">The Jira plugin is an extension of the issue labeler model. It is installable into Jira Cloud instances and is viewable in an issue's page. The plugin will passively analyze an issue's title and description by communicating with the issue labeler model and display prediction types ranked by their confidence score.</p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Close
