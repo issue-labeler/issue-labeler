@@ -248,8 +248,10 @@
                                     <!-- Project details-->
                                     <h2 class="text-uppercase">Issue Labeler Model</h2>
                                     <img class="img-fluid d-block mx-auto w-25" src="assets/img/portfolio/1.jpg" alt="..." />
-                                    <p class="h5 text-muted" style="text-align: left;">The issue labeler model is the prediction engine utilized by the plugin. The model is a result of fine-tuning Google's BERT model, which is a deep learning model that excels at natural language processing, and training it for issue classification using the expansive SmartSHARK dataset. The model predicts an issue's type based on contextual analysis of its title and description.</p>
-
+                                    <p class="h5 text-muted" style="text-align: left;">The plugin’s prediction engine is an issue-classification deep-learning language model implemented by fine-tuning Google’s 
+                                        pre-trained ALBERT language model. Introduced by Google in 2019, ALBERT, which stands for A Lite BERT, 
+                                        is a smaller version of the original BERT language model. ALBERT achieves a smaller size due to the factorization of BERT’s embedding 
+                                        parameters leading to an “80% reduction in the parameters of the projection block, at the expense of only a minor drop in performance” (<a href="https://ai.googleblog.com/2019/12/albert-lite-bert-for-self-supervised.html" style="color:blue">https://ai.googleblog.com/2019/12/albert-lite-bert-for-self-supervised.html</a>)</p>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
                                         Close
